@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2936;
+    color: #F9FAF8;
+}
+
+.section1-content {
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+}
+
+.logo {
+    margin: 0px;
+    margin-right: 32em;
+    font-size: 24px;
+    font-weight: 900;
+    margin-right: auto;
+}
+
+.menu {
+    color: #E5E7EB;
+}
+
+.hero {
+    display: flex;
+    margin-top: 8em;
+    margin-bottom: 8em;
+    padding: 8px;
+}
+
+.text {
+    margin: 0px;
+    margin-right: 2em;
+    flex-direction: column;
+    text-align: left;
+    width: 480px;
+    padding: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    margin-top: 6px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero button {
+    margin-top: 14px;
+    width: 100px;
+    padding: 6px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    border: unset;
+    border-radius: 6px;
+}
+
+.hero .image {
+    padding: 0;
+    margin: 0;
+}
+
+.hero img {
+    flex: 1 1 auto;
+}
