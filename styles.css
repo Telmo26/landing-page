@@ -160,3 +160,30 @@ body {
     text-align: right;
     padding-right: 40px;
 }
+
+.section4 {
+    display: flex;
+    background-color: white;
+    padding: 100px 0px;
+}
+
+.section4-content {
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin: auto;
+    background-color: #3882F6;
+    padding: 40px 120px;
+    border-radius: 8px;
+    color: white;
+}
+
+.section4 button {
+    background: none;
+    border: 2px solid white;
+    padding: 5px 20px;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    height: fit-content;
+}
